@@ -12,7 +12,7 @@ int main(void) {
 
     for (int i = 0; i < 10; i++) {
         double pix = x[i] / log(x[i]);
-        printf("x=%7.2e, pix=%8.2e\n", x[i], pix);
+        printf("x=%7.2e, pix=%.2e\n", x[i], pix);
         fprintf(outfp, "%7.2e, %7.2e\n", x[i], pix);
     }
 
