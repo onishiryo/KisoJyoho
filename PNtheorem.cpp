@@ -6,14 +6,17 @@ int main(void) {
     double x[10] = { 10.,1e2,1e3,1e4,1e5,1e6,1e7,1e8,1e9,1e10 };
 
     outfp = fopen("result.txt", "w");
+//    fopen_s(&outfp, "result.txt", "w"); //VSonly
 
     printf("       x,   Pi(x) \n");
     fprintf(outfp, "      x,    Pi(x) \n");
+//    fprintf_s(outfp, "      x,    Pi(x) \n"); //VSonly
 
     for (int i = 0; i < 10; i++) {
         double pix = x[i] / log(x[i]);
         printf("x=%7.2e, pix=%.2e\n", x[i], pix);
         fprintf(outfp, "%7.2e, %7.2e\n", x[i], pix);
+//        fprintf_s(outfp, "%7.2e, %7.2e\n", x[i], pix); //VSonly
     }
 
     fclose(outfp);

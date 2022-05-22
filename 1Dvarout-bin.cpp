@@ -16,6 +16,7 @@ int main(void) {
 //output: 全てのデータを保存したい
     FILE* outfp;
     outfp = fopen("outfile.bin", "wb");
+//    fopen_s(&outfp, "outfile.bin", "wb"); //VSonly
 
     size_t size_element = 1; //要修正
     size_t num_element = 1; //要修正
