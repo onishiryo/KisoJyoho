@@ -1,3 +1,5 @@
+//学籍番号：12B34567
+//名前：情報 基礎
 #pragma warning(disable: 4996)
 #include <stdio.h>
 #include <errno.h> //to use errno
