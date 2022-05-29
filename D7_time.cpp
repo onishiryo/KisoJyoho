@@ -17,7 +17,7 @@ int main(void) {
             for(k=0; k<n; k++){
                 a=a+b;}}}
     tend = time(NULL);
-    printf("加算 にかかった時間=%ld [sec]\n", tend-tstart);
+    printf("Time for 'add'=%ld [sec]\n", tend-tstart);
 
 //減算
     tstart = time(NULL);
@@ -26,7 +26,7 @@ int main(void) {
             for(k=0; k<n; k++){
                 a=a-b;}}}
     tend = time(NULL);
-    printf("減算 にかかった時間=%ld [sec]\n", tend-tstart);
+    printf("Time for 'subtract'=%ld [sec]\n", tend-tstart);
 
 //乗算
     tstart = time(NULL);
@@ -36,7 +36,7 @@ int main(void) {
             for(k=0; k<n; k++){
                 a=a*b;}}}
     tend = time(NULL);
-    printf("乗算 にかかった時間=%ld [sec]\n", tend-tstart);
+    printf("Time for 'multiply'=%ld [sec]\n", tend-tstart);
 
 //除算
     tstart = time(NULL);
@@ -46,7 +46,7 @@ int main(void) {
             for(k=0; k<n; k++){
                 a=a/b;}}}
     tend = time(NULL);
-    printf("除算 にかかった時間=%ld [sec]\n", tend-tstart);
+    printf("Time for 'divide'=%ld [sec]\n", tend-tstart);
 
     return 0;
 }
