@@ -15,9 +15,11 @@ int main(void) {
     outfp = fopen("pnlist.txt", "w");
 
     tstart = time(NULL); //for computing time measurement
-    ix_start=1; // 奇数であるべき。18桁以下。
-    //        1234567890123456789
-    ix_end = 1000000; // 100000000;
+//    ix_start=1; // 奇数であるべき。18桁以下。
+//    ix_end  =100000000;
+     //         123456789012345678
+    ix_start = 1000000000000000001; // 18桁
+    ix_end   = 1000000000000001000; // 100000000;
 
     if((ix_start)%2==0){ix_start=ix_start+1;} //for safety
 
