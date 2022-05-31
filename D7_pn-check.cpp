@@ -30,7 +30,7 @@ int main(void) {
     return 0; 
 }
 
-long long check_prime(__int64 inum) {
+long long check_prime(long long inum) {
     long long i, isqrt_num, ipfactor;
 
     ipfactor=0;
