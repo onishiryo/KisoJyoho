@@ -21,7 +21,7 @@ int main(void) {
     if(ipf==0){ //割り切れる数がなかった場合
         printf("%lld is a prime number.\n", ix);
     }else{
-        printf("%lld can be devided by %ld.\n", ix,ipf);
+        printf("%lld can be divided by %lld.\n", ix,ipf);
     }
 
     tend = time(NULL);
