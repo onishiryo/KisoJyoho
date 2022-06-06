@@ -98,7 +98,7 @@ long long check_lprime(long long inum[2]) {
         imod = 119; //correct using imod0, imod_1e18, imod1
 
         if (imod == 0) {
-            printf("%lld %018ld can be devided by %lld.\n", inum[0], inum[1], i);
+            printf("%lld %018lld can be divided by %lld.\n", inum[0], inum[1], i);
             ipfactor = i;
             break;
         }
