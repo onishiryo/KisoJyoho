@@ -1,8 +1,8 @@
 # 基礎情報処理および演習（FY2022Q1, FY2023Q1）
 - 演習に使うcppファイルを置きました。
+- Code と書かれた緑色のボタンを押すとzipダウンロードできます。
 - ipynbはJupyternotebook形式です。google colabを使って、c programingを簡易的にできます。
 余力のある人は試してみてください。Google colabで、「ノートブックを開く」でGithubを選択できます。
-- Code と書かれた緑色のボタンを押すとzipダウンロードできます。
 - 講義資料はT2Scholarからダウンロード可能。
 
 # C Programs（第６回の講義用）
